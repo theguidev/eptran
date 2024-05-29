@@ -1,0 +1,112 @@
+* {
+  font-size: 62.5%;
+  font-family: 'Lato';
+
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("imagens/login-background.png");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  margin: 4rem;
+}
+
+img {
+  width: 30rem;
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight: 300;
+  color: #FFF;
+  text-align: center;
+}
+
+.login-box {
+  display: flex;
+  margin: 8rem;
+  justify-content: center;
+}
+
+.login-box-left {
+  width: 46rem;
+  border-top: 0.3rem solid #FFF;
+  border-bottom: 0.3rem solid #FFF;
+  border-left: 0.3rem solid #FFF;
+  border-radius: 2rem 0 0 2rem;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  padding:  4rem;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #FFF;
+  text-align: center;
+  margin: 3rem;
+}
+
+.login-box-left > p {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #FFF;
+  text-align: center;
+}
+
+.login-box-right {
+  width: 46rem;
+  background-color: #FFF;
+  border-radius: 0 2rem 2rem 0;
+  padding: 4rem;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.login-info-p {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #000;
+}
+
+#grupo {
+  margin: 2rem;
+  background-color: lightgray;
+
+}
+
+#grupo, #email-cpf, #password {
+  margin: 0.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #000;
+}
+
+img {
+  margin: 4rem;
+}
+
+button {
+  width: 24rem;
+  height: 4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #FFF;
+  background-color: #2D52A0;
+  border: none;
+  border-radius: 1rem;
+}
+
+.forgot-password-p {
+  margin: 1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #2D52A0;
+  text-align: right;
+}

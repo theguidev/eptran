@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #339DD9;
+    font-family: 'lato';
+}
+
+header {
+    height: 10rem;
+    width: 100vw;
+    background-image: url(imagens/header-background.png);
+}
+
+h1{
+    padding: 5rem;
+    font-size: 5rem;
+}
+.fundo{
+    background-color: white;
+    width: 100vw;
+    height: 60rem;
+}
+div{
+    border-radius: 2rem;    
+    display: flex;
+}
+
+div svg{
+    margin-top: 10rem;
+    margin-left: 8rem;
+    padding: 2rem;
+}
+
+.textos{
+    margin-top: 8rem;
+    display: block;
+}
+
+.textos h3{
+    font-size: 1rem;
+}
+
+p{
+    font-size: 3.2rem;
+    margin-left: 5rem;
+}
+
+#semafro{
+    margin-left: 30rem;
+    margin-top: -18rem;
+}

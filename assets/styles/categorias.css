@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #339DD9;
+    font-family: 'Lato';
+}
+
+
+header {
+    height: 10rem;
+    width: 100vw;
+    background-image: url(imagens/header-background.png);
+}
+
+h1{
+    font-size: 6.4rem;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+div{
+    margin-top: 13rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #FBEAEB;
+    font-size: 6.4rem;
+    width: 46.5rem;
+    height: 44rem;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
