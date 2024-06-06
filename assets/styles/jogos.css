@@ -6,6 +6,11 @@
     font-family: 'IBM Plex Sans';
 }
 
+body{
+    overflow-x: hidden;
+    text-align: center;
+}
+
 #logo{
     width: 100vw;
     margin-top: 1.6rem;
@@ -30,6 +35,8 @@ hr{
 h1{
     font-size: 1.8rem;
 }
+
+
 
 #fundo{
     background-color: white;
@@ -67,35 +74,56 @@ nav{
     width: 100vw;
     height: 19rem; 
 } 
-.destaques{
+
+#jogos h2{
     display: flex;
     justify-content: center;
     margin-top: 3.2rem;
-}
- h2{
     font-size: 2.4rem;
- }
+    
+}
 
- .box{
-    height: 13.4rem;
-    width: 56rem;
-    border-radius: 0.8rem;
-    display: flex;
+section{
+    display: block;
     justify-content: center;
     align-items: center;
-    background-image: url(imagens/highlight-background.png);
- }
+    margin-top: 3.0rem;
+}
 
- section{
+.CeuAzul{
+    background-color: #EBF0F7;
+    width: 166.4rem;
+    height: 40rem;
+    margin-bottom: 3.2rem;
+    border-radius: 1.6rem;
+    margin: 0 auto;
+    margin-top: 3.2rem;
     display: flex;
-    gap: 3.2rem;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3rem;
- }
- section .box p {
-    font-size: 3.2rem;
-    text-align: center;
-    font-weight: bold;
-    color: white;
- }
+}
+
+.CeuAzul img {
+    width: 64rem;
+    height: 40rem; 
+    border-top-left-radius: 1.6rem;
+    border-bottom-left-radius:1.6rem;
+}
+.CeuAzul div{
+    text-align: left;
+}
+
+.texto{
+    padding: 6rem;
+}
+
+.CeuAzul h1 {
+    font-size: 3.4rem;
+}
+
+.CeuAzul h2 {
+    font-size: 3.4rem;
+}
+
+.CeuAzul li {
+    font-size: 3.4rem;
+    
+}

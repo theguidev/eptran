@@ -6,6 +6,10 @@
     font-family: 'IBM Plex Sans';
 }
 
+body{
+   overflow-x: hidden;
+}
+
 #logo{
     width: 100vw;
     margin-top: 1.6rem;
@@ -42,7 +46,7 @@ a{
 }
 
 nav{
-    position: fixed;
+   
     top: 0;
     width: 100%;
 }
@@ -167,14 +171,60 @@ nav{
     border-radius: 2rem;
  }
 
- .boxCategorias img{
-   right: 3.2rem;
- }
+.imgs{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 
- .boxCategorias2 img{
-   right: 3.2rem;
- }
+.noticias{
+    display: flex;
+    margin-top: 3.2rem;
+    justify-content: center;
+}
 
- .boxCategorias3 img{
-   right: 3.2rem;
- }
+.conteiner{
+    height: 26rem;
+    width: 56rem;
+    border-radius: 0.8rem;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    
+}
+
+section .conteiner h1 {
+    font-size: 2.1rem;
+    font-weight: bold;
+    text-align: left;
+    padding: 0.3rem;
+    
+}
+
+section .conteiner h2 {
+    font-size: 1.8rem;
+    font-weight: 0rem;
+    text-align: left;
+    padding: 0.3rem;
+    
+}
+
+section .conteiner p {
+    font-size: 1.8rem;
+    text-align: left;
+    padding: 0.3rem;
+    
+    
+}
+
+.conteiner img{
+    width: 23rem;
+    height: 25rem;
+    border-radius: 2.7rem;
+    padding: 2rem;
+}
+
+.conteiner .txt{
+    display: block;
+    
+}
